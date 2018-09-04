@@ -1,0 +1,45 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover,
+button:hover {
+  cursor: pointer;
+}
+
+a,
+button,
+label,
+input,
+select {
+  outline: none;
+}
+
+button {
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+.closed {
+  display: none !important;
+}
+
+.slideUp {
+  top: 0 !important;
+  opacity: 1 !important;
+}
