@@ -23,7 +23,7 @@ const toggleModal = e => {
 
     setTimeout(() => modalHeader.classList.add('slideUp'), 300);
     setTimeout(() => modalContent.classList.add('slideUp'), 600);
-    setTimeout(() =>  modalControls.classList.add('slideUp'), 900);
+    setTimeout(() => modalControls.classList.add('slideUp'), 900);
 
     if (currTarget === buttonUninstall) {
         showSnackbar();
