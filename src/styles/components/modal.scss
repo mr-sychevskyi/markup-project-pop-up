@@ -27,7 +27,7 @@
   color: rgba(0, 0, 0, 1);
   border-radius: 6px;
   background: rgba(255, 255, 255, 1);
-  animation: slideDown .5s ease-out;
+  animation: slideDown .4s ease-out;
 
   &__header,
   &__content,
@@ -51,8 +51,7 @@
 .modal-content {
   display: flex;
   flex-direction: column;
-
-  width: calc(100% - 150px);
+  width: 480px;
   max-width: 100%;
 
   text-align: center;
@@ -65,10 +64,9 @@
 }
 
 .modal-controls {
-  width: calc(100% - 150px);
-  max-width: 100%;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 480px;
+  max-width: 100%;
 }

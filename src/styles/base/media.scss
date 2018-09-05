@@ -1,0 +1,17 @@
+@media only screen and (max-width: 620px) {
+  .modal {
+    overflow-y: scroll;
+
+    &__controls {
+      flex-direction: column;
+    }
+  }
+
+  .btn-close {
+    padding: 20px;
+  }
+
+  .btn-controls:not(:first-child) {
+    margin-top: 20px;
+  }
+}
